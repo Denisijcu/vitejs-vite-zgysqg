@@ -1,4 +1,5 @@
-import './style.css'
+import './style.css';
+import './User/user'
 
 let title = 'Users List';
 let obj = {
@@ -37,7 +38,7 @@ document.querySelector('#app').innerHTML = `
   ${title}
  </h1>
 
-  <ul id="users"> </ul>
+  
 
   <div id="detail"></div>
 
